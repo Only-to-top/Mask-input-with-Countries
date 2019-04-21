@@ -12,6 +12,7 @@
   // phone mask
   var input = document.querySelector("#phone");
   window.intlTelInput(input, {
+    // страны сверху
     preferredCountries: ["ru", "ua", "by"],
     utilsScript: "libs/intlTelInput/js/utils.js?1549804213570",
   });
